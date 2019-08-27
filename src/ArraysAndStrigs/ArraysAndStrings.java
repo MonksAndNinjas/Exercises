@@ -1,7 +1,9 @@
+// Problem 1: Is Unique: Implement an algorithm to determine if a string has all unique characters.
+// What if you cannot use additional data structures?
+
 package ArraysAndStrigs;
 
 public class ArraysAndStrings {
-
 	 public static boolean isUniqueChars(String str) {
 		 	if (str.length() > 128) return false;
 
