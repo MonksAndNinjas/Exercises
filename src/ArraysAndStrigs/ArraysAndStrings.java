@@ -4,6 +4,14 @@
 package ArraysAndStrigs;
 
 public class ArraysAndStrings {
+
+/*
+	// Assumes ASCII string
+	// Time Complexity is O(n)
+	// Could argue the time complexity is O(1), since for loop will never iterate through more
+	// than 128 characters
+*/
+	
 	 public static boolean isUniqueChars(String str) {
 		 	if (str.length() > 128) return false;
 
