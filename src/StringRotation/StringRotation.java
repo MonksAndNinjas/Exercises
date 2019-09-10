@@ -14,7 +14,7 @@ public class StringRotation {
 		if (len == s2.length() && len > 0) {
 			/* Concatenate s1 and s1 within new buffer */
 			String s1s1 = s1 + s1;
-			System.out.print("this is where return of isSubstring is called");
+			System.out.print(s1s1);
 			
 			return true;
 		}
